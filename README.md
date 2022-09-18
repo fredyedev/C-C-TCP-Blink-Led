@@ -21,14 +21,22 @@ Execute:
 
 ./Clientled port ip
 
-
 port = same that the rbp choice
+
 ip = ip address of the rbp- DHCP ip address
+
 For the led use gpio  9 and 11. 
+
 First we execute ejecute TCP Server on rbp
+
 Second we execute the client on the computer(computers)  
+
 Actions Messeges from the client: 
+
 on turn on the led
+
 off turn off the led
+
 exit close the server
+
 adios close the client
