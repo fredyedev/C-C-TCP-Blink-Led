@@ -4,15 +4,23 @@ A simple TCP Blink-Led (ON/OFF) using GPIO Raspberry Pi.
 
 Use Instructions:
 
-The File ServerTCP_Turn<on,off>.c compile and execute on rbp with the next commands
+The File ServerTCP_Turn<on,off>.c compile and execute on rbp with the next commands:
+
 gcc -o Serverled ServerTCP_Turn<on,off>.c
+
 ./Serverled port
+
 port = TCP Port in the interval 7000-8000
 
-The File ClientTCP_Turno<on,off>.c compile and execute on your computer in the same network that rbp with the next commands
+
+The File ClientTCP_Turno<on,off>.c compile and execute on your computer in the same network that rbp with the next commands:
+
 gcc -o Clientled ClietTCP_Turno<on,off>.c
+
 Execute:
+
 ./Clientled port ip
+
 
 port = same that the rbp choice
 ip = ip address of the rbp- DHCP ip address
